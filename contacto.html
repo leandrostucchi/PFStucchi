@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8" />
+        <title>Heladeria</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <section class="centrar principal">
+            <h1>Heladería Premium</h1>
+        </section>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item">
+                    <a href="./index.html">Home</a> 
+                </li>
+                <li class="nav-item">
+                    <a href="./sabores.html">Sabores</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./delicias.html">Delicias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./sucursal.html">Sucursal</a>
+                </li>
+            </ul>    
+        </nav>
+        <header class="cabecera centrar">
+            <nav class="navsabor" >
+                <h3>Medios de comunicación</h3>
+                <br>
+                <li class="nav-item">
+                    <img src="./img/telefono.png" width="50" height="50" alt="telefono" title="Telefono"/>
+                    <h4>0800-222-1234</h4>
+                </li>
+                <br>
+                <li class="nav-item">
+                    <img src="./img/email.png" width="50" height="50" alt="email" title="email"/>
+                    <h4>lstucchi@hotmail.com</h4>
+                </li>
+            </nav>
+            <section>
+                <h2>Contacto</h2>
+                <form action="#">
+                    <table>
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><label for="nombre">Nombre</label></td>
+                                <td><input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="apellido">Apellido</label></td>
+                                <td><input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido" /></td>
+                              </tr>
+                          <tr>
+                            <td><label for="pass">Password</label></td>
+                            <td><input type="password" name="pass" id="pass" placeholder="Su password"/></td>
+                          </tr>
+                        <br>  
+                          <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" name="email" id="email" placeholder="mail@mail" /></td>
+                          </tr>
+                          <tr>
+                            <td><label for="mensaje">Mensaje</label></td>
+                            <td><textarea name="" id="mensaje" cols="30" rows="10"></textarea></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                    <!--   <input type="submit" value="Enviar"> -->
+                      <button class="button1" type="submit">Enviar</button>
+                      <button class="button2" type="reset">Cancelar</button>
+                  </div>
+                </form>
+            </section>
+        </header>
+        <footer>
+            <h2 class="cabecera centrar">
+                <a>Seguinos en </a>
+            </h2>
+            <div class="logos">
+                <a href="https://www.instagram.com/leandro.stucchi/">
+                    <img src="./img/instagram.png" width="50" height="50" alt="instagram"/>
+                </a>
+                <a href="https://es-la.facebook.com/login/?next=%2Fmarketplace%2F">
+                    <img src="./img/facebook.png" width="50" height="50" alt="facebook"/>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=XXXXXXXXXXX">
+                    <img src="./img/whatsapp.png" width="50" height="50" alt="whatsapp"/>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
