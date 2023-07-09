@@ -75,20 +75,19 @@ header.cabecera {
 }  
 
 
-
 /* Barra de navegacion */
-nav.navbar {
+.nav{
     position: sticky;
     background-color: #bace03;
 }
 
-.navbar ul {
+.nav ul {
     display: flex;
    align-items: center;
    justify-content: space-evenly;
 } 
 
-.navbar ul li {
+.nav ul li {
     padding: 10px;
     margin: 5px;
 } 
@@ -164,9 +163,9 @@ tr {
 .box {
     display: inline-block;
     background-color: rgb(203, 219, 248);
-    height: 300px;
-    width: 300px;
- border-width: 2px;
+    height: 350px;
+    width: 350px;
+    border-width: 1px;
     padding-left: 10px;
     padding: 10px 30px;
     overflow: scroll;
