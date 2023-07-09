@@ -2,70 +2,90 @@
 <html>  
     <head>
         <meta charset="utf-8" />
-        <title>Heladeria</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./css/bootstrap.css" />
         <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./fonts/BlueSignature.otf" />
+        <title>Heladeria</title>
     </head>
     <body>
-        <section class="centrar principal">
-            <h1>Heladería Premium</h1>
-        </section>
-        <nav class="navbar">
-            <ul>
-                <li class="nav-item">
-                    <a href="./index.html">Home</a> 
-                </li>
-                <li class="nav-item">
-                    <a href="./sabores.html">Sabores</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./delicias.html">Delicias</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./sucursal.html">Sucursal</a>
-                </li>
-            </ul>    
-        </nav>
-    <header class="cabecera centrar">
+        <!-- nav + logo -->
         <section>
-            <nav class="navsabor" >
-                <h2>Sucursales</h2>                
-                <ul>
-                    <li class="nav-item">
-                        <h3  >Casa Central San Isidro</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13156.546589739039!2d-58.54464030118646!3d-34.47405760725766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb035c807fd03%3A0xb0473b47d8bd08d6!2sMunicipio%20de%20San%20Isidro!5e0!3m2!1ses!2sar!4v1686512610431!5m2!1ses!2sar" 
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>          
-                    </li>
-                    <li class="nav-item">
-                        <h3>San Fernando</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6580.313516382648!2d-58.571357999746006!3d-34.44816844461877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca563aa84b4b7%3A0x42ad9ea818b88a24!2sMunicipalidad%20de%20San%20Fernando!5e0!3m2!1ses!2sar!4v1686512881598!5m2!1ses!2sar" 
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                </ul>    
-            </nav>
+            <h1> <span class="centrar principal">Heladería Premium </span> </h1>
         </section>
-    </header>
-  <footer>
-    <h2 class="cabecera centrar">
-        <a>Seguinos en </a>
-    </h2>
-    <div class="logos">
-        <a  href="https://www.instagram.com/leandro.stucchi/">
-            <img src="./img/instagram.png" width="50" height="50" alt="instagram"/>
-        </a>
-        <a href="https://es-la.facebook.com/login/?next=%2Fmarketplace%2F">
-            <img src="./img/facebook.png" width="50" height="50" alt="facebook"/>
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=XXXXXXXXXXX">
-            <img src="./img/whatsapp.png" width="50" height="50" alt="whatsapp"/>
-        </a>
-    </div>
-    
-  </footer>
-  
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-collapse justify-content-around me-auto" style="background-color:#bace03; list-style:none">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./sabores.html">Sabores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./delicias.html">Delicias</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./sucursal.html">Sucursal</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- cierre nav + logo -->
+        <header >
+            <!-- apertura de Header -->
+            <section>
+                <h2> <span class="cabecera centrar">Sucursales</span> </h2>
+            </section>
+            <div class="row justify-content-around">
+                <div> 
+                    <h3>Casa Central San Isidro</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13156.546589739039!2d-58.54464030118646!3d-34.47405760725766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb035c807fd03%3A0xb0473b47d8bd08d6!2sMunicipio%20de%20San%20Isidro!5e0!3m2!1ses!2sar!4v1686512610431!5m2!1ses!2sar" 
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>          
+                </div>
+                <div> 
+                    <h3>San Fernando</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6580.313516382648!2d-58.571357999746006!3d-34.44816844461877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca563aa84b4b7%3A0x42ad9ea818b88a24!2sMunicipalidad%20de%20San%20Fernando!5e0!3m2!1ses!2sar!4v1686512881598!5m2!1ses!2sar" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <!-- cierre de Header -->
+        </header>
+        <footer>
+            <!-- apertura Footer -->
+            <div class="row footerBg">
+                <div class="col-lg-12 col-xs-12 footerFlex paddingTB">
+                    <h2 class="cabecera centrar"> Seguinos en </h2>
+                    <div class="logos">
+                        <a  href="https://www.instagram.com/leandro.stucchi/">
+                            <img src="./img/instagram.png" width="50" height="50" alt="instagram"/>
+                        </a>
+                        <a href="https://es-la.facebook.com/login/?next=%2Fmarketplace%2F">
+                            <img src="./img/facebook.png" width="50" height="50" alt="facebook"/>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=XXXXXXXXXXX">
+                            <img src="./img/whatsapp.png" width="50" height="50" alt="whatsapp"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- cierre Footer -->
+        </footer>
+    <script src="./js/bootstrap.bundle.js" type="text/javascript"></script>
     </body>
 </html>
