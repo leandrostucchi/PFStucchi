@@ -45,19 +45,6 @@
   background-color: rgb(175, 116, 76);
 }
 
-.box {
-  display: inline-block;
-  background-color: rgb(203, 219, 248);
-  width: 350px;
-  height: 350px;
-  border-width: 1px;
-  padding-left: 10px;
-  padding: 10px 30px;
-  overflow: scroll;
-  box-sizing: border-box;
-  margin: 10px 20px;
-}
-
 .logos {
   display: flex;
   justify-content: center;
@@ -79,9 +66,26 @@
   height: 300px;
 }
 
+.box1 {
+  display: inline-block;
+  background-color: rgb(203, 219, 248);
+  width: 350px;
+  height: 350px;
+  border-width: 1px;
+  padding-left: 10px;
+  padding: 10px 30px;
+  overflow: scroll;
+  box-sizing: border-box;
+  margin: 10px 20px;
+}
+
 .dimensionHistoria {
-  width: 200px;
-  height: 200px;
+  display: inline-block;
+  background-color: rgb(203, 219, 248);
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 10px 20px;
 }
 
 .dimensionFooter {
@@ -98,6 +102,18 @@
   width: 600px;
   height: 450px;
   border-style: none;
+}
+
+.degrade {
+  background-color: rgb(186, 206, 3);
+  list-style: none;
+  background-image: linear-gradient(rgb(186, 206, 3), rgb(255, 255, 0));
+}
+
+.linkpagina {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
 }
 
 h1 {

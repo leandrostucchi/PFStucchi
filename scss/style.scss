@@ -39,17 +39,6 @@
     background-color: $colorDarkModerateOrange;
 }
 
-.box {
-    display: inline-block;
-    background-color: $colorLightGrayishBlue;
-    @include tamano(350px,350px);
-    border-width: 1px;
-    padding-left: 10px;
-    padding: 10px 30px;
-    overflow: scroll;
-    box-sizing: border-box;
-    margin: 10px 20px;
-}
 
 .logos{
     display: flex;
@@ -79,9 +68,26 @@
     @extend .dimension;
 }
 
+.box1 {
+    display: inline-block;
+    background-color: $colorLightGrayishBlue;
+    @include tamano(350px,350px);
+    border-width: 1px;
+    padding-left: 10px;
+    padding: 10px 30px;
+    overflow: scroll;
+    box-sizing: border-box;
+    margin: 10px 20px;
+}
+
+
 .dimensionHistoria{
     @extend .dimension;
-    @include tamano(200px,200px);
+    display: inline-block;
+    background-color: $colorLightGrayishBlue;
+    @include tamano(300px,300px);
+    overflow-y: scroll;
+    margin: 10px 20px;
 }
 
 
@@ -106,4 +112,15 @@
     @extend .dimensionSucursal;
 }
 
+.degrade{
+    background-color:$colorAmarilloFuerte;
+    list-style:none;
+    background-image: linear-gradient($colorAmarilloFuerte, $colorAmarillo);
+}
+
+.linkpagina{
+    color: $colorNegro;
+    font-weight: $fontWeighBold;
+    font-size: $fontSize20;
+}
 @import "bucles";
