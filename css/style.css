@@ -134,4 +134,15 @@ h3 {
   font-size: 30px;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

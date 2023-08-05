@@ -17,3 +17,16 @@
         font-size: $tamano;
     }
 }
+
+@media (max-width: 576px) {
+    h1{
+        font-size: $fontSize80;
+    }
+  }
+
+
+@media (max-width: 576px) {
+    h2{
+        font-size: $fontSize30;
+    }
+  }
